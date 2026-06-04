@@ -1,5 +1,5 @@
 {
-    "version": "20260523",
+    "version": "20260604",
     "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -12,16 +12,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260523/mpv-x86_64-20260523-git-9e06c32.7z",
-            "hash": "bf24a9670a3bf13a2d19ab42c801fbc97d88fd053b712359593c34498845878f"
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260604/mpv-x86_64-20260604-git-6d5c859.7z",
+            "hash": "fdacc5681de55288dc1e91c5e81082d80b0add0c9c49ed5ba033965c32eb6532"
         },
         "32bit": {
-            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260523/mpv-i686-20260523-git-9e06c32.7z",
-            "hash": "c9cdce9fd36f3cbbc381e7a9d772861a4733aa40d540b6fde3ce5a089c7622ce"
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260604/mpv-i686-20260604-git-6d5c859.7z",
+            "hash": "3c305d5bb91818ec161453ac9c18c9c1e890da8159229241d2d8497a76eb501d"
         },
         "arm64": {
-            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260523/mpv-aarch64-20260523-git-9e06c32.7z",
-            "hash": "e6b4a3925d0e9e2792e6c68af833fcd991f448b34b815feeb8d5008276314e3c"
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260604/mpv-aarch64-20260604-git-6d5c859.7z",
+            "hash": "70c2caf025c545f1c99ac889403af2cbb9ab3d475ba4d0c34a9a156e002ad6b5"
         }
     },
     "pre_install": "Remove-Item \"$dir\\updater.bat\"",
