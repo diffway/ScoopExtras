@@ -1,12 +1,12 @@
 {
-    "version": "26.2",
+    "version": "26.2.2",
     "description": "A markdown-like editor for novels",
     "homepage": "https://novelwriter.io/",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vkbo/novelWriter/releases/download/v26.2/novelwriter-26.2-amd64-setup.exe",
-            "hash": "dc25420256f8a230f8c6d083d22050cdca52361f0ee439c86d98b0254ce651f1"
+            "url": "https://github.com/vkbo/novelWriter/releases/download/v26.2.2/novelwriter-26.2.2-amd64-setup.exe",
+            "hash": "710022c7afdd1fe958dd9f39d88be6f6816fbc10844e33df8f176a70ab32eaad"
         }
     },
     "innosetup": true,
